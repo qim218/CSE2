@@ -34,5 +34,14 @@ totalcostaftertaxE=nEnvelopes*envelopeCost$*taxPercent+totalcostbeforetaxE;
 totalcostbeforetax=totalcostbeforetaxS+totalcostbeforetaxG+totalcostbeforetaxE;
 totalcostaftertax=totalcostaftertaxS+totalcostaftertaxG+totalcostaftertaxE;
 saletaxfortotal=totalcostbeforetax*taxPercent;
+System.out.println("totalcostaftertaxS"+"is"+totalcostaftertaxS);
+System.out.println("totalcostaftertaxG"+"is"+totalcostaftertaxG);
+System.out.println("totalcostaftertaxE"+"is"+totalcostaftertaxE);
+System.out.println("totalcostbeforetaxS"+"is"+totalcostbeforetaxS);
+System.out.println("totalcostbeforetaxG"+"is"+totalcostbeforetaxG);
+System.out.println("totalcostbeforetaxE"+"is"+totalcostbeforetaxE);
+System.out.println("totalcostaftertax"+"is"+totalcostaftertax);
+System.out.println("totalcostbeforetax"+"is"+totalcostbeforetaxS);
+System.out.println("saletaxfortotal"+"is"+saletaxfortotal);
 }
 }
